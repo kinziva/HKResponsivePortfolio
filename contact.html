@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Contact</title>
-  <!-- Reset CSS -->
-  <link rel="stylesheet" href="./Assets/css/reset.css">
-  <!-- Style CSS -->
-  <link rel="stylesheet" href="./Assets/css/style.css">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
-</head>
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./Assets/css/reset.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  </head>
+  
 
 <body>
-  <header id="masterhead">
+  <header>
     <div class="container">
-
-      <!-- Start Navbar  -->
+      <!-- Navbar pulled from Bootstrap template -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">HKeskin</a>
+        <a class="navbar-brand" href="./index.html" style="padding-right: 20px;">HKeskin</a>
+        <!-- Navbar mobile size Bootstrap  -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar urls -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="nav navbar-nav navbar-right">
 
             <li class="nav-item">
@@ -51,7 +57,7 @@
   <!-- Main container- ontact Form box.. -->
   <div id="main-container" class="container">
     <section class="main-section">
-      <h4>Contact</h4>
+      <h4 style="padding-top: 30px;">Contact</h4>
       <form id="contact_form">
 
         <!-- name input -->
@@ -81,31 +87,37 @@
 
 
   <!-- Begin Footer -->
-  <footer class="page-footer font-small blue fixed-bottom">
+  <footer class="footer font-small fixed-bottom bg-dark">
+    <div class="container footer-copyright text-center py-3">
+      <div class="row">
 
-    <!-- Social -->
-    <div class="footer-copyright text-center py-3">Connect
+        <!-- Social Media Icons -->
+        <div class="col-md-6">
+          <!-- Github -->
+          Connect
+          <a href="https://github.com/kinziva/" target="_blank">
+            <button type="button" class="btn btn-social-icon btn-github btn-rounded">
+              <i class="fa fa-github"></i>
+            </button>
+          </a>
+          <!-- Linkedin -->
+          <a href="https://www.linkedin.com/in/hanna-keskin-2160b31b3/" target="_blank">
+            <button type="button" class="btn btn-social-icon btn-linkedin btn-rounded">
+              <i class="fa fa-linkedin"></i>
+            </button>
+          </a>
+        </div>
+        <!-- End Social -->
 
-      <a href="https://github.com/kinziva/" target="_blank">
-        <button type="button" class="btn btn-social-icon btn-github btn-rounded">
-          <i class="fa fa-github"></i>
-        </button>
-      </a>
+        <!-- Copyright -->
 
-      <a href="https://www.linkedin.com/in/hanna-keskin-2160b31b3/" target="_blank">
-        <button type="button" class="btn btn-social-icon btn-linkedin btn-rounded">
-          <i class="fa fa-linkedin"></i>
-        </button>
-      </a>
+        <div class="col-md-6">
 
+          © 2020 Copyright:HKESKIN
+        </div>
+        <!-- End Copyright -->
+      </div>
     </div>
-    <!-- End Social -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:HKESKIN
-    </div>
-    <!-- End Copyright -->
-
   </footer>
   <!-- End Footer -->
 </body>

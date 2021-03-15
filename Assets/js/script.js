@@ -49,6 +49,16 @@ $(document).ready(function () {
             window.open('https://kinziva.github.io/HKcodeQuiz/')
         });
     }
+    function buySellApp() {
+        $('#buysellCode').click(function (e) { 
+            e.preventDefault();
+            window.open('https://github.com/kinziva/Team_Hulk_Group_Project_2');
+        });
+        $('#buysellApp').click(function (e) {
+            e.preventDefault();
+            window.open('https://vast-reaches-08581.herokuapp.com/')
+        });
+    }
     function noteTakerApp() {
         $('#noteTakerCode').click(function (e) { 
             e.preventDefault();
@@ -66,6 +76,7 @@ $(document).ready(function () {
     burgerApp();
     quizApp();
     noteTakerApp();
+    buySellApp();
 
 });
 
